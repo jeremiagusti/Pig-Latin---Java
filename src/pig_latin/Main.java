@@ -20,9 +20,11 @@ public class Main {
 		// Moving the rest of the letters
 		Moving.moveRest(word, wordLen, finalWord, numOfCons);
 		
+		// Displaying the final word
+		System.out.println("The pig latin version of inputted word is: ");
+		Display.displayWord(finalWord);
 		
-		
-		System.out.println(numOfCons);
+
 		
 		input.close();
 	}
