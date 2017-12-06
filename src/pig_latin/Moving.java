@@ -7,10 +7,10 @@ public class Moving {
 		 * The number has to decrement
 		 */
 		int consIndexSubs = numOfCons; 
-
+		
 		// Iteration for every consonant
 		for (int i = 0; i < numOfCons; i++) {
-			finalWord[wordLen - (2 - consIndexSubs)] = word.charAt(i);
+			finalWord[finalWord.length - (2 + consIndexSubs)] = word.charAt(i);
 			consIndexSubs--;
 		}
 	}
