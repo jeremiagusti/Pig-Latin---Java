@@ -16,6 +16,9 @@ public class Main {
 		
 		// Moving the consonant
 		Moving.moveCons(word, wordLen, finalWord, numOfCons);
+		
+		// Moving the rest of the letters
+		Moving.moveRest(word, wordLen, finalWord, numOfCons);
 		System.out.println(numOfCons);
 		
 		input.close();

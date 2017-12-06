@@ -15,7 +15,12 @@ public class Moving {
 		}
 	}
 	
-//	public static void moveRest(String word, int wordLen, char[] finalWord, int numOfCons) {
+	public static void moveRest(String word, int wordLen, char[] finalWord, int numOfCons) {
+		int count = 0;
 		
-	//}
+		for (int i = numOfCons; i < wordLen; i++) {
+			finalWord[count] = word.charAt(i); 
+			count++;
+		}
+	}
 }
