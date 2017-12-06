@@ -9,6 +9,9 @@ public class Main {
 		
 		System.out.print("Input a word to be transformed into pig latin form: ");
 		String word = input.nextLine(); // Input the word
+		
+		word = word.toUpperCase(); // Make the inputted word uppercase
+		
 		int wordLen = word.length(); // Find out the length
 		char[] finalWord = new char[wordLen + 2];  // Make char array according to the length
 		
