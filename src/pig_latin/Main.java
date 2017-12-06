@@ -14,6 +14,8 @@ public class Main {
 		// Loop to find how many consonants before it meets vowel
 		int numOfCons = Consonant.howManyCons(word, wordLen);
 		
+		// Moving the consonant
+		Moving.moveCons(word, wordLen, finalWord, numOfCons);
 		System.out.println(numOfCons);
 		
 		input.close();
